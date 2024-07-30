@@ -5,6 +5,10 @@
     font-family: "Roboto";
 }
 
+body {
+    display:flex;
+    flex-flow:column;
+}
   
 a {
     text-decoration: none;
