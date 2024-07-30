@@ -88,5 +88,33 @@ a {
     font-size: 36px;
     font-family: "Roboto";
     font-weight: 700;
+}
+
+.title-container, .quote-container {
     color:#1f2937;
+}
+
+.quote-container {
+    text-align: justify;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.inspiring-quote {
+    font-size: 36px;
+    font-weight:lighter;
+    font-style: italic;
+}
+
+.author {
+    font-weight: 700;
+    font-size: 14x;
+    align-self: flex-end;
+}
+
+.quote {
+    width: 1000px;
+    display:flex;
+    flex-flow:column;
 }
