@@ -28,6 +28,8 @@ a {
 
 .title-container {
     justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
 .title-container img {
@@ -45,11 +47,14 @@ a {
     font-weight: 700;
 }
 
+.signup, .action-box{
+    background-color: #3882f6;
+    color: #F9FAF8;
+}
 .signup {
     padding: 4px 20px;
-    background-color: #3882f6;
     border-radius: 6px;
-    color: #F9FAF8;
+
     border: 0;
     box-shadow: none;
 }
@@ -114,7 +119,34 @@ a {
 }
 
 .quote {
-    width: 1000px;
+    width: 700px;
     display:flex;
     flex-flow:column;
+}
+
+.action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-box {
+    display:flex;
+    width: 700px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 90px;
+    border-radius: 6px;
+    margin: 50px;
+    font-size: 10px;
+}
+
+.action-header {
+    font-size: 14px;
+    font-weight: 600
+}
+
+.action-box button {
+    border-color: #E5E7EB;
+    border: 2px solid;
 }
