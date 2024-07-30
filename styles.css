@@ -10,19 +10,28 @@ a {
     text-decoration: none;
 }
 
-.heading-container, .title-container {
+.heading-container, .title-container, .footer-container {
     background-color: #1f2937;
     display: flex;
     justify-content: space-around;
 }
 
-.heading-container a, .awesome-sub{
-    color: #E5E7EB;
-    font-size: 18px;
+.heading-container {
+    padding: 10px;
 }
 
+.heading-container a, .awesome-sub{
+    color: #E5E7EB;
+    font-size: 12px;
+    font-weight: lighter
+}
+
+.header-links {
+    display:flex;
+    gap: 20px;
+}
 .logo, .awesome {
-    font-size: 24px;
+    font-size: 20px;
     color: #F9FAF8;
 }
 
@@ -30,6 +39,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 30px;
+    padding: 50px;
 }
 
 .title-container img {
@@ -42,9 +52,12 @@ a {
 }
 
 .awesome {
-    font-size: 48px;
-    font-family: "Roboto";
+    font-size: 36px;
     font-weight: 700;
+}
+
+.awesome-sub {
+
 }
 
 .signup, .action-box{
@@ -54,7 +67,7 @@ a {
 .signup {
     padding: 4px 20px;
     border-radius: 6px;
-
+    margin: 10px;
     border: 0;
     box-shadow: none;
 }
@@ -63,6 +76,8 @@ a {
     display: flex;
     flex-flow: column;
     align-items: center;
+    padding: 20px;
+    padding-bottom: 50px;
 }
 
 .image-container {
@@ -87,12 +102,15 @@ a {
 
 .box-sub {
     font-size: 12px;
+    text-align: center;
 }
 
 .info-title {
-    font-size: 36px;
+    font-size: 24px;
     font-family: "Roboto";
     font-weight: 700;
+    text-align: center;
+    margin: 20px;
 }
 
 .title-container, .quote-container {
@@ -107,7 +125,7 @@ a {
 }
 
 .inspiring-quote {
-    font-size: 36px;
+    font-size: 30px;
     font-weight:lighter;
     font-style: italic;
 }
@@ -122,6 +140,7 @@ a {
     width: 700px;
     display:flex;
     flex-flow:column;
+    padding: 50px;
 }
 
 .action-container {
@@ -149,4 +168,12 @@ a {
 .action-box button {
     border-color: #E5E7EB;
     border: 2px solid;
+}
+
+.footer-container {
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    padding: 20px;
+    font-size: 12px;
 }
