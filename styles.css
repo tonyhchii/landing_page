@@ -123,6 +123,7 @@ a {
 }
 
 .quote-container {
+    flex: auto;
     text-align: justify;
     background-color: #e5e7eb;
     display: flex;
